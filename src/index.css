@@ -101,7 +101,8 @@ nav .logo{
     gap: 20px;
 }
 
-#whyus h2{
+#whyus h2,
+#latest h2{
     font-size: 3rem;
     font-weight: normal;
 }
