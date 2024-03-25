@@ -130,6 +130,8 @@ nav .logo{
     height: 200px;
     display: block;
     background-color: gray;
+    width: 100%;
+    object-fit: cover;
 }
 
 #latest .cards>div{
@@ -148,6 +150,14 @@ nav .logo{
 
 #latest h6{
     color: gray;
+}
+
+@media only screen and (max-width: 1000px) {
+    #whyus .cards,
+    #latest .cards{
+        gap: 50px;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media only screen and (max-width: 600px) {

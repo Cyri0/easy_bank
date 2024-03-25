@@ -25,7 +25,7 @@ const Latest = () => {
 
 const LatestCard = (props) => {
   return (<div className='latest-card'>
-    <img src="" alt={props.title} />
+    <img src={"http://localhost:8000/" + props.img} alt={props.title} />
     <div>
       <h6>By {props.creator}</h6>
       <h3>{props.title}</h3>
