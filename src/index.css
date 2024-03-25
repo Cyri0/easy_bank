@@ -89,6 +89,10 @@ nav .logo{
 
 /* WhyUs */
 
+#whyus{
+    background: #f4f5f7;
+}
+
 #whyus>.wrapper{
     padding: 100px 0px;
     display: flex;
@@ -119,4 +123,26 @@ nav .logo{
     font-size: 1.5rem;
     font-weight: normal;
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #hero .wrapper>div{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #whyus .cards{
+        grid-template-columns: 1fr;
+    }
+
+    #whyus .cards>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
 }
